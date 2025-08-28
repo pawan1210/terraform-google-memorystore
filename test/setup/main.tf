@@ -32,11 +32,15 @@ locals {
       "serviceusage.googleapis.com",
     ]
     root = [
+      "cloudresourcemanager.googleapis.com",
+      "serviceusage.googleapis.com",
       "redis.googleapis.com",
       "memcache.googleapis.com",
-      "serviceusage.googleapis.com",
-      "iam.googleapis.com",
-      "cloudresourcemanager.googleapis.com",
+      "serviceconsumermanagement.googleapis.com",
+      "networkconnectivity.googleapis.com",
+      "compute.googleapis.com",
+      "memorystore.googleapis.com",
+      "cloudkms.googleapis.com",
     ]
   }
 }

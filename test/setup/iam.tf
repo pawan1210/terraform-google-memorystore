@@ -37,12 +37,13 @@ locals {
       "roles/compute.networkAdmin",
     ]
     root = [
-      "roles/resourcemanager.projectIamAdmin",
-      "roles/serviceusage.serviceUsageAdmin",
+      "roles/memorystore.admin",
       "roles/redis.admin",
-      "roles/iam.serviceAccountAdmin",
-      "roles/iam.serviceAccountUser",
+      "roles/memcache.admin",
       "roles/compute.networkAdmin",
+      "roles/resourcemanager.projectIamAdmin",
+      "roles/cloudkms.admin",
+      "roles/cloudkms.cryptoKeyEncrypterDecrypter",
     ]
   }
 
